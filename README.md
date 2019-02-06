@@ -1,5 +1,3 @@
-Streaming Logs
-=========
 
 stream-log is a simple utility to allow you to watch a remote file in realtime on your browser via websockets.
 
@@ -35,3 +33,6 @@ Browser Support
 I have only tested this on Chrome only :/
 
 
+=======
+# stream-logs
+Utility to stream logs
