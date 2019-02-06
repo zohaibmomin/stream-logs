@@ -9,6 +9,22 @@ Features
 
 Install and Run
 ===============
+1. Dependencies
+
+* NPM and Node Versions
+```
+ npm -v
+ 3.10.10
+ 
+ node -v
+v6.9.5
+```
+
+* Install node modules
+```
+npm install
+```
+2. Run
 
 To run, all you need to do is run the command and pass it a file:
 
@@ -31,8 +47,3 @@ Browser Support
 ===============
 
 I have only tested this on Chrome only :/
-
-
-=======
-# stream-logs
-Utility to stream logs
