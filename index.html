@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Log Tail Utility</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/app.css"> -->
+  <style>
+    body {
+    background-color: #222;
+  }
+
+  #info {
+    font-size: 32px;
+    color: #FFFFFF;
+    text-shadow: #cfcfcf 1px 1px 2px;
+    text-align: right;
+    margin: 20px 10px;
+    text-transform: lowercase;
+  }
+
+  #tail {
+    border: 1px solid #cfcfcf;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #333;
+    color: #EEE;
+    text-shadow: #000 0 0 2px;
+    height: 500px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .trebuchet {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+
+  .monospace {
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  }
+
+  .selection::selection,
+  .selection *::selection {
+    background: #EEE;
+    color: #000;
+    border-color: #000;
+    text-shadow: #fff 0 0 2px;
+  }
+
+  .selection::-moz-selection,
+  .selection *::-moz-selection {
+    background: #EEE;
+    color: #000;
+    border-color: #000;
+    text-shadow: #fff 0 0 2px;
+  }
+  </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+  <div id="info" class="trebuchet"></div>
+  <div id="lineCount" class="monospace selection"></div>
+  <div id="tail" class="monospace selection"></div>
+
+  <script type="text/javascript">
+    (function () {
+      var scrollLocked = true;
+      var preventScroll = false;
+      var scrollPosition = 0;
+      var $tail = $('#tail');
+      var lastModifiedPos = -1;
+
+      function pageTop() {
+        return scrollPosition == 0;
+      }
+
+      function pageBottom() {
+        return $tail.height() + scrollPosition == $tail.attr("scrollHeight") - 20;
+      }
+
+      function onScroll(cb) {
+        var didScroll = false;
+        $tail.scroll(function () { didScroll = true; });
+        setInterval(function () {
+          if (didScroll) {
+            didScroll = false;
+            cb();
+          }
+        }, 250);
+      }
+
+      onScroll(function () {
+        scrollPosition = $tail.scrollTop();
+        if (pageBottom()) {
+          scrollLocked = true;
+        } else {
+          scrollLocked = false;
+          if (pageTop() && lastModifiedPos > 0) {
+            $.getJSON('/', { offset: lastModifiedPos }, function (data) {
+              var rand = Math.floor(Math.random() * 786);
+              $tail.prepend(data.tail.join('<br />') + '<span id="span' + rand + '">');
+              lastModifiedPos = data.lastModifiedPos;
+              $tail.scrollTop($("#span" + rand).offset().top);
+              console.log("data getJSON--> ", data);
+            });
+          }
+        }
+      });
+
+      var lines = 0, notice = $("#info"), buffer = $tail;
+
+      var socket = io.connect("/");
+      socket.on('connect', function () {
+        console.log('Connected to:', socket.host);
+      });
+
+      socket.on('message', function (message) {
+        console.log('Received message from server :', message);
+        if (message.lastModifiedPos) {
+          lastModifiedPos = message.lastModifiedPos;
+        }
+        if (message.tail) {
+          buffer.append(message.tail.join('<br/>*****New line pushed from server*********<br/>'));
+          lines = lines + message.tail.length;
+          if (scrollLocked) {
+            $('#tail').scrollTop($('#tail').attr("scrollHeight"));
+          }
+        }
+        if (message.filename) {
+          notice.html(message.filename);
+        }
+      });
+    })();
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var StreamLog = require('../index.js');
+
+var argv = require('optimist')
+   .usage('Usage: stream-log --file <filename>')
+   .demand(['file'])
+   .default('port', 3000)
+   .default('lineCount', 1000)
+   .argv;
+
+var StreamLog = StreamLog(argv.file, argv.port, argv.lineCount);
+
+process.on('uncaughtException', function (err) {
+   console.log('uncaughtException :: ', err);
+});

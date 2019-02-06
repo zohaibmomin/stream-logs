@@ -1,0 +1,21 @@
+{
+  "name": "stream-log",
+  "version": "1.0.0",
+  "author": "Zohaib Ali Momin",
+  "description": "log watching solution (similar to the tail -f command in UNIX). Also provide infinite upward scroll.",
+  "bin": {
+    "stream-log": "./bin/stream-log"
+  },
+  "keywords": [
+    "websockets",
+    "log"
+  ],
+  "dependencies": {
+    "optimist": "*",
+    "socket.io": "0.9.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}

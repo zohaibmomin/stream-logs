@@ -1,0 +1,329 @@
+2/5/2019, 9:07:32 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:37:32 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:07:35 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:37:35 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:07:39 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:37:39 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:07:42 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:37:42 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:07:45 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:37:45 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:07:48 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:37:48 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:07:51 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:37:51 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:07:54 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:37:54 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:07:57 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:37:57 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:07:58 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:37:58 +0000] "GET / HTTP/1.1" 304 - "http://uat-live-pro.rksv.net/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+
+Authenticating websocket connection for :: 120.63.0.114
+2/5/2019, 9:07:58 PM - debug: Starting auto close connection timer for socket : o0dH_pjdIWLI8V7HAAAA, for client_id : null
+2/5/2019, 9:07:58 PM - debug: Requesting Sentinel :  {"command":"get_client_info","data":{"client_id":"104682"}}
+2/5/2019, 9:07:58 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_client_info, guid=false
+2/5/2019, 9:07:58 PM - debug: Sentinel response received for get_client_info104682 client_id=104682, name=ARCHANA GANESH DUBEY, account_type=--, pan=AQYPD5797M, email=archana.dubey02@gmail.com, phone=9833346734, nse_pcode=, bse_pcode=, bse_custodian_code=, dp_account_number=--, dob=06/02/1993, is_active=true, exchanges_enabled=[BSE_EQ, NSE_EQ], products_enabled=[MTF, MTFS, OCO, D, CO, I], bank_name=AXIS BANK, bank_account=914010030365433, bank_name2=--, bank_account2=--, bank_name3=--, bank_account3=--
+2/5/2019, 9:07:58 PM - error: NewRelic : Profile 104682 Not found in map
+2/5/2019, 9:07:58 PM - debug: NewRelic : create_new_relic_segment_profile :: promise_created ::104682
+2/5/2019, 9:07:59 PM - debug: Successfully connected to websocket ID: o0dH_pjdIWLI8V7HAAAA, API: {"apiId":"dec62afeb9a739736497061945dab3d8897f628394450565ca7afe20e9ee7f85","os":"WEB","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcImlzc1wiOlwiVVBTV1VMXCIsXCJpYXRcIjoxNTQ5MzgxMDY5LFwiZXhwXCI6MTU0OTM4MjA2OSxcImF1ZFwiOlwiVVBTV1VMfFdFQl9WNFwiLFwic3ViXCI6XCJHZXQgU29ja2V0IENvbm5lY3Rpb25cIn0i.z8wsuEWtL0AvNWcwiEB0CYDJvFwKe8G6Lz_HLGnf3_8","decodedToken":{"iss":"UPSWUL","iat":1549381069,"exp":1549382069,"aud":"UPSWUL|WEB_V4","sub":"Get Socket Connection"},"socketId":"o0dH_pjdIWLI8V7HAAAA","userLog":{"client_id":"104682","apiId":"dec62afeb9a739736497061945dab3d8897f628394450565ca7afe20e9ee7f85","ip":"120.63.0.114","device":{"os":"WEB","version":"","memory":"","details":"","network":"","imei":"","mac":""}},"clientTag":"WEB","client_id":"104682","client_info":null,"isLoggedIn":false,"subscriptions":{"LIVE_MTM":false},"loginKey":""}
+2/5/2019, 9:07:59 PM - debug: Sentinel response received for get_client_info104682 client_id=104682, name=ARCHANA GANESH DUBEY, account_type=--, pan=AQYPD5797M, email=archana.dubey02@gmail.com, phone=9833346734, nse_pcode=, bse_pcode=, bse_custodian_code=, dp_account_number=--, dob=06/02/1993, is_active=true, exchanges_enabled=[BSE_EQ, NSE_EQ], products_enabled=[MTF, MTFS, OCO, D, CO, I], bank_name=AXIS BANK, bank_account=914010030365433, bank_name2=--, bank_account2=--, bank_name3=--, bank_account3=--
+2/5/2019, 9:07:59 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_client_info, guid=false
+2/5/2019, 9:07:59 PM - debug: NewRelic : create_new_relic_segment_profile :: promise_resolved::104682
+2/5/2019, 9:07:59 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, Method: client_login
+2/5/2019, 9:07:59 PM - debug: Client Login using password Client ID :: 104682 - Socket ID ::  o0dH_pjdIWLI8V7HAAAA
+2/5/2019, 9:07:59 PM - debug: Requesting Sentinel : client_login >> 104682
+2/5/2019, 9:07:59 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=client_login, guid=null
+2/5/2019, 9:07:59 PM - debug: NewRelic : create_new_relic_segment_login :: promise_created ::104682
+2/5/2019, 9:07:59 PM - error: NewRelic : Login 104682 Not found in map
+2/5/2019, 9:07:59 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=client_login, guid=null
+2/5/2019, 9:07:59 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: client_login :: guid(null)
+(node:11127) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+2/5/2019, 9:07:59 PM - debug: NewRelic : create_new_relic_segment_login :: promise_resolved::104682
+2/5/2019, 9:07:59 PM - debug: User log created: {"event":"CLIENT_LOGIN_SUCCESS","ip":"120.63.0.114","apiId":"dec62afeb9a739736497061945dab3d8897f628394450565ca7afe20e9ee7f85","client_id":"104682","_id":"5c59add70e982d2b77b40458","device":{"os":"WEB","version":"","memory":"","details":"","network":"","imei":"","mac":""},"date":"Tue, Feb 5, 2019 8:55 PM","timestamp":1549381079668}
+2/5/2019, 9:08:00 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:00 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:03 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:03 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:04 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, Method: client_login2fa
+2/5/2019, 9:08:04 PM - debug: Stopping auto close connection timer for socket : o0dH_pjdIWLI8V7HAAAA, for client_id : 104682
+2/5/2019, 9:08:04 PM - debug: Stopping Auto Logout Timer for : 104682
+2/5/2019, 9:08:04 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: client_login2fa :: guid(null)
+2/5/2019, 9:08:04 PM - debug: Requesting Sentinel :  {"command":"set_client_login_status","data":{"client_id":"104682","login_status":true,"login_key":"23af7bf75927ee3cc7cadf6cf9e56f2af9d2a2bf70d495dd706a14b479871dadae5ac3d283b5f2661eaee76900da68dcbcf00e8442376d375182dfd2853bfbd0e4bd554f3a94d66372ddf7266613c8ec41075c21b57834a1d60b7acb3210c359db2d9374d26d094536e680b5813fdb472ddd27415ca894550d95831f65391e20fb07c1d89d4da7fe0a15998b1cff2775d8125ca4496e74d65caeec563dbe92dcb29b1ed8e0a013912e739546299bde11d32c3212fa7932db356659f12a5eb6877bc3366525f704734e49b721689ca12e9b42a6617bdfbdc323365a2e1b996654ef41ddc698f94d5fa5cb7a1d467781090f0f80130c0b7c20f431b6dace321b91"}}
+2/5/2019, 9:08:04 PM - debug: Published the login key on kafka 
+Published login info to kafka undefined
+2/5/2019, 9:08:04 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, {"method":"get_client_info","type":"interactive","data":{}}
+2/5/2019, 9:08:04 PM - debug: Requesting Sentinel :  {"command":"get_client_info","data":{"client_id":"104682"}}
+2/5/2019, 9:08:04 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_client_info, guid=null
+2/5/2019, 9:08:04 PM - debug: NewRelic : create_new_relic_segment_profile :: promise_created ::104682
+2/5/2019, 9:08:04 PM - debug: Sentinel response received for get_client_info104682 client_id=104682, name=ARCHANA GANESH DUBEY, account_type=--, pan=AQYPD5797M, email=archana.dubey02@gmail.com, phone=9833346734, nse_pcode=, bse_pcode=, bse_custodian_code=, dp_account_number=--, dob=06/02/1993, is_active=true, exchanges_enabled=[BSE_EQ, NSE_EQ], products_enabled=[MTF, MTFS, OCO, D, CO, I], bank_name=AXIS BANK, bank_account=914010030365433, bank_name2=--, bank_account2=--, bank_name3=--, bank_account3=--
+2/5/2019, 9:08:04 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_client_info, guid=null
+2/5/2019, 9:08:04 PM - debug: Sentinel response received for get_client_info104682 client_id=104682, name=ARCHANA GANESH DUBEY, account_type=--, pan=AQYPD5797M, email=archana.dubey02@gmail.com, phone=9833346734, nse_pcode=, bse_pcode=, bse_custodian_code=, dp_account_number=--, dob=06/02/1993, is_active=true, exchanges_enabled=[BSE_EQ, NSE_EQ], products_enabled=[MTF, MTFS, OCO, D, CO, I], bank_name=AXIS BANK, bank_account=914010030365433, bank_name2=--, bank_account2=--, bank_name3=--, bank_account3=--
+2/5/2019, 9:08:04 PM - error: NewRelic : Profile 104682 Not found in map
+2/5/2019, 9:08:04 PM - debug: Fetching last_modified timestamp for client_id :: 104682 device :: WEB
+2/5/2019, 9:08:04 PM - debug: NewRelic : create_new_relic_segment_profile :: promise_resolved::104682
+2/5/2019, 9:08:04 PM - debug: Successfully fetched last modified timestamp for client_id :: 104682 device :: WEB
+2/5/2019, 9:08:04 PM - debug: {"watchlists":"1548830941175","credentials":null,"storage":{"web":"1548930084880","ios":null,"android":null}}
+2/5/2019, 9:08:04 PM - debug: {"WEB":{"flag":2,"timestamp":[1545135527287,1545135547302]}}
+2/5/2019, 9:08:04 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_client_info :: guid(null)
+2/5/2019, 9:08:05 PM - debug: UserSchema.statics.updateFirstLoginTime :: Updating last_modified timestamp for client_id :: 104682 key :: WEB
+2/5/2019, 9:08:05 PM - debug: UserSchema.statics.updateFirstLoginTime :: Updating first login time :: findQuery :: {"$and":[{"client_id":"104682"},{"$or":[{"first_login.WEB.timestamp":null},{"first_login.WEB.flag":{"$lt":2}}]}]} updateQuery :: {"$inc":{"first_login.WEB.flag":1},"$push":{"first_login.WEB.timestamp":1549381085140}}
+2/5/2019, 9:08:05 PM - debug: UserSchema.statics.updateFirstLoginTime :: Successfully updated first login timestamp :: client_id:: 104682, timestamp:: [object Object]
+2/5/2019, 9:08:06 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:06 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:09 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:09 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:11 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, {"method":"get_order_history","type":"interactive","data":{},"guid":"44c68132-5f6f-edf0-c965-a6bf19188b65"}
+2/5/2019, 9:08:11 PM - debug: Fetching order history :: client :104682 japi_state:true
+2/5/2019, 9:08:11 PM - debug: Requesting Sentinel :  {"command":"get_order_history","data":{"client_id":"104682","order_number":"","time_in_micro":""}}
+2/5/2019, 9:08:11 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_order_history, guid=44c68132-5f6f-edf0-c965-a6bf19188b65
+2/5/2019, 9:08:11 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_order_history, guid=44c68132-5f6f-edf0-c965-a6bf19188b65
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_order_history :: guid(44c68132-5f6f-edf0-c965-a6bf19188b65)
+2/5/2019, 9:08:11 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, {"method":"get_trade_history","type":"interactive","data":{},"guid":"8a21243e-2799-978e-905a-0c79aaa24304"}
+2/5/2019, 9:08:11 PM - debug: Fetching trade history :: client :104682 japi_state:true
+2/5/2019, 9:08:11 PM - debug: Requesting Sentinel :  {"command":"get_trade_history","data":{"client_id":"104682","from_date":"","to_date":""}}
+2/5/2019, 9:08:11 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_trade_history, guid=8a21243e-2799-978e-905a-0c79aaa24304
+2/5/2019, 9:08:11 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, {"method":"get_holdings","type":"interactive","data":{"series":"EQ","product":"D"},"guid":"d9079497-3302-5026-81b9-d90bfaa3b2aa"}
+2/5/2019, 9:08:11 PM - debug: Requesting Sentinel :  {"command":"get_holdings","data":{"client_id":"104682","series":"EQ","product":"D"}}
+2/5/2019, 9:08:11 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_holdings, guid=d9079497-3302-5026-81b9-d90bfaa3b2aa
+2/5/2019, 9:08:11 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, {"method":"get_positions","type":"interactive","data":{}}
+2/5/2019, 9:08:11 PM - debug: Requesting Sentinel :  {"command":"get_positions","data":{"client_id":"104682","exchange":"","token":"","product":""}}
+2/5/2019, 9:08:11 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_positions, guid=null
+2/5/2019, 9:08:11 PM - debug: Users request received from : 104682, {"method":"fetch","type":"user","data":{"type":"PRIVATE","device":"WEB","query":[]},"guid":"bd1dbf84-d578-5b71-1fbe-38ed8fb1f295"}
+2/5/2019, 9:08:11 PM - debug: >> Fetching Client Data for 104682 =>  { _id: 0 }
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: fetch :: guid(bd1dbf84-d578-5b71-1fbe-38ed8fb1f295)
+2/5/2019, 9:08:11 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, {"method":"get_limits","type":"interactive","data":{"limit_type":"S"}}
+2/5/2019, 9:08:11 PM - debug: Requesting Sentinel :  {"command":"get_limits","data":{"client_id":"104682","limit_type":"S"}}
+2/5/2019, 9:08:11 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_limits, guid=null
+2/5/2019, 9:08:11 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, {"method":"get_limits","type":"interactive","data":{"limit_type":"C"}}
+2/5/2019, 9:08:11 PM - debug: Requesting Sentinel :  {"command":"get_limits","data":{"client_id":"104682","limit_type":"C"}}
+2/5/2019, 9:08:11 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_limits, guid=null
+2/5/2019, 9:08:11 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_trade_history, guid=8a21243e-2799-978e-905a-0c79aaa24304
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_trade_history :: guid(8a21243e-2799-978e-905a-0c79aaa24304)
+2/5/2019, 9:08:11 PM - debug: Instruments request received from : 104682, {"method":"market_status","type":"instruments","guid":"191d4e5a-c3c8-ab9e-9a7f-4f3de1c7ac0a"}
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: market_status :: guid(191d4e5a-c3c8-ab9e-9a7f-4f3de1c7ac0a)
+2/5/2019, 9:08:11 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, {"method":"order_notifications","type":"interactive"}
+2/5/2019, 9:08:11 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_holdings, guid=d9079497-3302-5026-81b9-d90bfaa3b2aa
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_holdings :: guid(d9079497-3302-5026-81b9-d90bfaa3b2aa)
+2/5/2019, 9:08:11 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_positions, guid=null
+2/5/2019, 9:08:11 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_limits, guid=null
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_limits :: guid(null)
+Inside Position : 104682|NSE_EQ|19913 undefined
+Inside Position : 104682|BSE_EQ|540376 undefined
+Inside Position : 104682|NSE_EQ|2263 undefined
+Inside Position : 104682|BSE_EQ|541153 undefined
+Inside Position : 104682|NSE_EQ|20080 208.25
+Inside Position : 104682|NSE_EQ|277 undefined
+Inside Position : 104682|BSE_EQ|540755 undefined
+Inside Position : 104682|NSE_EQ|144 undefined
+Inside Position : 104682|BSE_EQ|540743 undefined
+Inside Position : 104682|NSE_EQ|467 undefined
+Inside Position : 104682|BSE_EQ|540777 undefined
+Inside Position : 104682|NSE_EQ|21770 undefined
+Inside Position : 104682|BSE_EQ|540716 undefined
+Inside Position : 104682|NSE_EQ|1594 443.7222
+Inside Position : 104682|NSE_EQ|2489 undefined
+Inside Position : 104682|BSE_EQ|541179 undefined
+Inside Position : 104682|NSE_EQ|425 undefined
+Inside Position : 104682|BSE_EQ|540775 undefined
+Inside Position : 104682|NSE_EQ|11483 1279.5599
+Inside Position : 104682|NSE_EQ|24948 171.3333
+Inside Position : 104682|NSE_EQ|31181 944.9098
+Inside Position : 104682|NSE_EQ|29124 147.165
+Inside Position : 104682|NSE_EQ|21808 undefined
+Inside Position : 104682|BSE_EQ|540719 undefined
+Inside Position : 104682|NSE_EQ|5029 undefined
+Inside Position : 104682|BSE_EQ|936286 undefined
+=====================================
+undefined
+=====================================
+undefined
+2/5/2019, 9:08:11 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_limits, guid=null
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_limits :: guid(null)
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_positions :: guid(null)
+2/5/2019, 9:08:11 PM - info: Successfully connected to Postgres 192.168.80.214:5432@order_book
+2/5/2019, 9:08:11 PM - debug: Live request received from : 104682, {"method":"sub","type":"live","data":{"tokens":["BSE_INDEX|SENSEX","NSE_INDEX|Nifty 50"],"type":"D0"},"guid":"d1e90ada-a9f3-2e01-ea63-3b188915e2a2"}
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: sub :: guid(d1e90ada-a9f3-2e01-ea63-3b188915e2a2)
+2/5/2019, 9:08:11 PM - debug: Users request received from : 104682, {"method":"store","type":"user","data":{"type":"PRIVATE","device":"WEB","data":{"upstox|user|preferences.whiteTheme":"false"}},"guid":"22649386-3c23-40c8-4d52-e200894e57e4"}
+2/5/2019, 9:08:11 PM - debug: Users request received from : 104682, {"method":"store","type":"user","data":{"type":"PRIVATE","device":"WEB","data":{"upstox|currentWorkspace":"UpstoxFixedWorkspace"}},"guid":"78e60d1e-cb22-d340-0503-e52afb3e5882"}
+2/5/2019, 9:08:11 PM - debug: Updating last_modified timestamp for key :: storage.web
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: store :: guid(22649386-3c23-40c8-4d52-e200894e57e4)
+2/5/2019, 9:08:11 PM - debug: Successfully updated timestamp for client_id:: 104682, key:: storage.web
+2/5/2019, 9:08:12 PM - debug: Updating last_modified timestamp for key :: storage.web
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: store :: guid(78e60d1e-cb22-d340-0503-e52afb3e5882)
+2/5/2019, 9:08:12 PM - debug: Successfully updated timestamp for client_id:: 104682, key:: storage.web
+2/5/2019, 9:08:12 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:12 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: order_notifications :: guid(null)
+2/5/2019, 9:08:12 PM - debug: Watchlist request received from : 104682, {"method":"get_all","type":"watchlists","guid":"f634de95-9c49-8444-e038-651215824fab"}
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_all :: guid(f634de95-9c49-8444-e038-651215824fab)
+2/5/2019, 9:08:12 PM - debug: Live request received from : 104682, {"method":"sub","type":"live","data":{"tokens":["NSE_EQ|19913","NSE_EQ|2263","NSE_EQ|20080","NSE_EQ|277","NSE_EQ|144","NSE_EQ|467","NSE_EQ|21770","NSE_EQ|1594","NSE_EQ|2489","NSE_EQ|425","NSE_EQ|11483","NSE_EQ|24948","NSE_EQ|31181","NSE_EQ|29124","NSE_EQ|21808","NSE_EQ|5029"],"type":"D0"},"guid":"8afda20e-15e7-e711-bb51-f858654707ca"}
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: sub :: guid(8afda20e-15e7-e711-bb51-f858654707ca)
+2/5/2019, 9:08:12 PM - debug: Live request received from : 104682, {"method":"sub","type":"live","data":{"tokens":[],"type":"D0"},"guid":"571496aa-4a9c-8e3b-75f3-13556f192c40"}
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: sub :: guid(571496aa-4a9c-8e3b-75f3-13556f192c40)
+2/5/2019, 9:08:12 PM - debug: Instruments request received from : 104682, {"method":"details","type":"instruments","data":{"tokens":[]},"guid":"ccc88ac6-a4ca-5f29-c6a4-5c5d130f0ed3"}
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: details :: guid(ccc88ac6-a4ca-5f29-c6a4-5c5d130f0ed3)
+2/5/2019, 9:08:12 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, {"method":"get_holdings","type":"interactive","data":{"series":"EQ","product":"D"},"guid":"7a315461-8381-aee2-01d8-2431fa169ab3"}
+2/5/2019, 9:08:12 PM - debug: Requesting Sentinel :  {"command":"get_holdings","data":{"client_id":"104682","series":"EQ","product":"D"}}
+2/5/2019, 9:08:12 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_holdings, guid=7a315461-8381-aee2-01d8-2431fa169ab3
+2/5/2019, 9:08:12 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_holdings, guid=7a315461-8381-aee2-01d8-2431fa169ab3
+Inside Position : 104682|NSE_EQ|19913 undefined
+Inside Position : 104682|BSE_EQ|540376 undefined
+Inside Position : 104682|NSE_EQ|2263 undefined
+Inside Position : 104682|BSE_EQ|541153 undefined
+Inside Position : 104682|NSE_EQ|20080 208.25
+Inside Position : 104682|NSE_EQ|277 undefined
+Inside Position : 104682|BSE_EQ|540755 undefined
+Inside Position : 104682|NSE_EQ|144 undefined
+Inside Position : 104682|BSE_EQ|540743 undefined
+Inside Position : 104682|NSE_EQ|467 undefined
+Inside Position : 104682|BSE_EQ|540777 undefined
+Inside Position : 104682|NSE_EQ|21770 undefined
+Inside Position : 104682|BSE_EQ|540716 undefined
+Inside Position : 104682|NSE_EQ|1594 443.7222
+Inside Position : 104682|NSE_EQ|2489 undefined
+Inside Position : 104682|BSE_EQ|541179 undefined
+Inside Position : 104682|NSE_EQ|425 undefined
+Inside Position : 104682|BSE_EQ|540775 undefined
+Inside Position : 104682|NSE_EQ|11483 1279.5599
+Inside Position : 104682|NSE_EQ|24948 171.3333
+Inside Position : 104682|NSE_EQ|31181 944.9098
+Inside Position : 104682|NSE_EQ|29124 147.165
+Inside Position : 104682|NSE_EQ|21808 undefined
+Inside Position : 104682|BSE_EQ|540719 undefined
+Inside Position : 104682|NSE_EQ|5029 undefined
+Inside Position : 104682|BSE_EQ|936286 undefined
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_holdings :: guid(7a315461-8381-aee2-01d8-2431fa169ab3)
+2/5/2019, 9:08:13 PM - debug: Live request received from : 104682, {"method":"sub_watchlist","type":"live","data":{"name":"favourites","type":"D1"},"guid":"75d4246c-a455-7670-be85-82ca37cb16fa"}
+2/5/2019, 9:08:13 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: sub_watchlist :: guid(75d4246c-a455-7670-be85-82ca37cb16fa)
+2/5/2019, 9:08:13 PM - debug: Live request received from : 104682, {"method":"sub","type":"live","data":{"tokens":["NSE_EQ|19913","NSE_EQ|2263","NSE_EQ|20080","NSE_EQ|277","NSE_EQ|144","NSE_EQ|467","NSE_EQ|21770","NSE_EQ|1594","NSE_EQ|2489","NSE_EQ|425","NSE_EQ|11483","NSE_EQ|24948","NSE_EQ|31181","NSE_EQ|29124","NSE_EQ|21808","NSE_EQ|5029","NSE_EQ|19913","NSE_EQ|2263","NSE_EQ|20080","NSE_EQ|277","N
+Inside Position : 104682|NSE_EQ|19913 undefined
+Inside Position : 104682|BSE_EQ|540376 undefined
+Inside Position : 104682|NSE_EQ|2263 undefined
+Inside Position : 104682|BSE_EQ|541153 undefined
+Inside Position : 104682|NSE_EQ|20080 208.25
+Inside Position : 104682|NSE_EQ|277 undefined
+Inside Position : 104682|BSE_EQ|540755 undefined
+Inside Position : 104682|NSE_EQ|144 undefined
+Inside Position : 104682|BSE_EQ|540743 undefined
+Inside Position : 104682|NSE_EQ|467 undefined
+Inside Position : 104682|BSE_EQ|540777 undefined
+Inside Position : 104682|NSE_EQ|21770 undefined
+Inside Position : 104682|BSE_EQ|540716 undefined
+Inside Position : 104682|NSE_EQ|1594 443.7222
+Inside Position : 104682|NSE_EQ|2489 undefined
+Inside Position : 104682|BSE_EQ|541179 undefined
+Inside Position : 104682|NSE_EQ|425 undefined
+Inside Position : 104682|BSE_EQ|540775 undefined
+Inside Position : 104682|NSE_EQ|11483 1279.5599
+Inside Position : 104682|NSE_EQ|24948 171.3333
+Inside Position : 104682|NSE_EQ|31181 944.9098
+Inside Position : 104682|NSE_EQ|29124 147.165
+Inside Position : 104682|NSE_EQ|21808 undefined
+Inside Position : 104682|BSE_EQ|540719 undefined
+Inside Position : 104682|NSE_EQ|5029 undefined
+Inside Position : 104682|BSE_EQ|936286 undefined
+=====================================
+undefined
+=====================================
+undefined
+2/5/2019, 9:08:11 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_limits, guid=null
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_limits :: guid(null)
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_positions :: guid(null)
+2/5/2019, 9:08:11 PM - info: Successfully connected to Postgres 192.168.80.214:5432@order_book
+2/5/2019, 9:08:11 PM - debug: Live request received from : 104682, {"method":"sub","type":"live","data":{"tokens":["BSE_INDEX|SENSEX","NSE_INDEX|Nifty 50"],"type":"D0"},"guid":"d1e90ada-a9f3-2e01-ea63-3b188915e2a2"}
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: sub :: guid(d1e90ada-a9f3-2e01-ea63-3b188915e2a2)
+2/5/2019, 9:08:11 PM - debug: Users request received from : 104682, {"method":"store","type":"user","data":{"type":"PRIVATE","device":"WEB","data":{"upstox|user|preferences.whiteTheme":"false"}},"guid":"22649386-3c23-40c8-4d52-e200894e57e4"}
+2/5/2019, 9:08:11 PM - debug: Users request received from : 104682, {"method":"store","type":"user","data":{"type":"PRIVATE","device":"WEB","data":{"upstox|currentWorkspace":"UpstoxFixedWorkspace"}},"guid":"78e60d1e-cb22-d340-0503-e52afb3e5882"}
+2/5/2019, 9:08:11 PM - debug: Updating last_modified timestamp for key :: storage.web
+2/5/2019, 9:08:11 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: store :: guid(22649386-3c23-40c8-4d52-e200894e57e4)
+2/5/2019, 9:08:11 PM - debug: Successfully updated timestamp for client_id:: 104682, key:: storage.web
+2/5/2019, 9:08:12 PM - debug: Updating last_modified timestamp for key :: storage.web
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: store :: guid(78e60d1e-cb22-d340-0503-e52afb3e5882)
+2/5/2019, 9:08:12 PM - debug: Successfully updated timestamp for client_id:: 104682, key:: storage.web
+2/5/2019, 9:08:12 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:12 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: order_notifications :: guid(null)
+2/5/2019, 9:08:12 PM - debug: Watchlist request received from : 104682, {"method":"get_all","type":"watchlists","guid":"f634de95-9c49-8444-e038-651215824fab"}
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_all :: guid(f634de95-9c49-8444-e038-651215824fab)
+2/5/2019, 9:08:12 PM - debug: Live request received from : 104682, {"method":"sub","type":"live","data":{"tokens":["NSE_EQ|19913","NSE_EQ|2263","NSE_EQ|20080","NSE_EQ|277","NSE_EQ|144","NSE_EQ|467","NSE_EQ|21770","NSE_EQ|1594","NSE_EQ|2489","NSE_EQ|425","NSE_EQ|11483","NSE_EQ|24948","NSE_EQ|31181","NSE_EQ|29124","NSE_EQ|21808","NSE_EQ|5029"],"type":"D0"},"guid":"8afda20e-15e7-e711-bb51-f858654707ca"}
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: sub :: guid(8afda20e-15e7-e711-bb51-f858654707ca)
+2/5/2019, 9:08:12 PM - debug: Live request received from : 104682, {"method":"sub","type":"live","data":{"tokens":[],"type":"D0"},"guid":"571496aa-4a9c-8e3b-75f3-13556f192c40"}
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: sub :: guid(571496aa-4a9c-8e3b-75f3-13556f192c40)
+2/5/2019, 9:08:12 PM - debug: Instruments request received from : 104682, {"method":"details","type":"instruments","data":{"tokens":[]},"guid":"ccc88ac6-a4ca-5f29-c6a4-5c5d130f0ed3"}
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: details :: guid(ccc88ac6-a4ca-5f29-c6a4-5c5d130f0ed3)
+2/5/2019, 9:08:12 PM - debug: Interactive request received from IP ::120.63.0.114 : 104682, {"method":"get_holdings","type":"interactive","data":{"series":"EQ","product":"D"},"guid":"7a315461-8381-aee2-01d8-2431fa169ab3"}
+2/5/2019, 9:08:12 PM - debug: Requesting Sentinel :  {"command":"get_holdings","data":{"client_id":"104682","series":"EQ","product":"D"}}
+2/5/2019, 9:08:12 PM - debug: Adding GUID to INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_holdings, guid=7a315461-8381-aee2-01d8-2431fa169ab3
+2/5/2019, 9:08:12 PM - debug: Removing GUID from INTERACTIVE_REQUEST_CACHE ::  client_id=104682, method=get_holdings, guid=7a315461-8381-aee2-01d8-2431fa169ab3
+Inside Position : 104682|NSE_EQ|19913 undefined
+Inside Position : 104682|BSE_EQ|540376 undefined
+Inside Position : 104682|NSE_EQ|2263 undefined
+Inside Position : 104682|BSE_EQ|541153 undefined
+Inside Position : 104682|NSE_EQ|20080 208.25
+Inside Position : 104682|NSE_EQ|277 undefined
+Inside Position : 104682|BSE_EQ|540755 undefined
+Inside Position : 104682|NSE_EQ|144 undefined
+Inside Position : 104682|BSE_EQ|540743 undefined
+Inside Position : 104682|NSE_EQ|467 undefined
+Inside Position : 104682|BSE_EQ|540777 undefined
+Inside Position : 104682|NSE_EQ|21770 undefined
+Inside Position : 104682|BSE_EQ|540716 undefined
+Inside Position : 104682|NSE_EQ|1594 443.7222
+Inside Position : 104682|NSE_EQ|2489 undefined
+Inside Position : 104682|BSE_EQ|541179 undefined
+Inside Position : 104682|NSE_EQ|425 undefined
+Inside Position : 104682|BSE_EQ|540775 undefined
+Inside Position : 104682|NSE_EQ|11483 1279.5599
+Inside Position : 104682|NSE_EQ|24948 171.3333
+Inside Position : 104682|NSE_EQ|31181 944.9098
+Inside Position : 104682|NSE_EQ|29124 147.165
+Inside Position : 104682|NSE_EQ|21808 undefined
+Inside Position : 104682|BSE_EQ|540719 undefined
+Inside Position : 104682|NSE_EQ|5029 undefined
+Inside Position : 104682|BSE_EQ|936286 undefined
+2/5/2019, 9:08:12 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: get_holdings :: guid(7a315461-8381-aee2-01d8-2431fa169ab3)
+2/5/2019, 9:08:13 PM - debug: Live request received from : 104682, {"method":"sub_watchlist","type":"live","data":{"name":"favourites","type":"D1"},"guid":"75d4246c-a455-7670-be85-82ca37cb16fa"}
+2/5/2019, 9:08:13 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: sub_watchlist :: guid(75d4246c-a455-7670-be85-82ca37cb16fa)
+2/5/2019, 9:08:13 PM - debug: Live request received from : 104682, {"method":"sub","type":"live","data":{"tokens":["NSE_EQ|19913","NSE_EQ|2263","NSE_EQ|20080","NSE_EQ|277","NSE_EQ|144","NSE_EQ|467","NSE_EQ|21770","NSE_EQ|1594","NSE_EQ|2489","NSE_EQ|425","NSE_EQ|11483","NSE_EQ|24948","NSE_EQ|31181","NSE_EQ|29124","NSE_EQ|21808","NSE_EQ|5029","NSE_EQ|19913","NSE_EQ|2263","NSE_EQ|20080","NSE_EQ|277","NSE_EQ|144","NSE_EQ|467","NSE_EQ|21770","NSE_EQ|1594","NSE_EQ|2489","NSE_EQ|425","NSE_EQ|11483","NSE_EQ|24948","NSE_EQ|31181","NSE_EQ|29124","NSE_EQ|21808","NSE_EQ|5029"],"type":"D0"},"guid":"b8b5a48c-8d1f-c1b7-ec92-1a6f23ed7f48"}
+2/5/2019, 9:08:13 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: sub :: guid(b8b5a48c-8d1f-c1b7-ec92-1a6f23ed7f48)
+2/5/2019, 9:08:14 PM - debug: Instruments request received from : 104682, {"method":"details","type":"instruments","data":{"tokens":["NSE_EQ|12018","NSE_EQ|2263","NSE_EQ|11915","NSE_EQ|467","NSE_EQ|425","NSE_EQ|277","NSE_EQ|21770","NSE_EQ|21808","NSE_EQ|144","NSE_EQ|31181","NSE_EQ|1594","NSE_EQ|19913","BSE_EQ|500290","NSE_EQ|5900","NSE_EQ|3045","NSE_EQ|3637","NSE_EQ|18096","NSE_EQ|2885","NSE_EQ|4244"]},"guid":"591747f4-8ae1-3ce8-0fce-63260a151d09"}
+2/5/2019, 9:08:14 PM - debug: RESPONSE :: SUCCESS :: pid(11127) :: 104682 :: details :: guid(591747f4-8ae1-3ce8-0fce-63260a151d09)
+2/5/2019, 9:08:15 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:15 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:18 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:18 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:21 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:21 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:24 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:24 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:27 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:27 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:30 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:30 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:33 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:33 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:36 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:36 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:39 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:39 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:42 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:42 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:45 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:45 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:48 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:48 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:51 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:51 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:54 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:54 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:08:57 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:38:57 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:09:00 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:39:00 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:09:03 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:39:03 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:09:06 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:39:06 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:09:09 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:39:09 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
+
+2/5/2019, 9:09:12 PM - debug: 192.168.80.220 - - [05/Feb/2019:15:39:12 +0000] "HEAD /v0/info HTTP/1.1" 200 159 "-" "-"
