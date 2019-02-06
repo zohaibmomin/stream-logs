@@ -47,3 +47,8 @@ Browser Support
 ===============
 
 I have only tested this on Chrome only :/
+
+Screenshot
+===============
+![Optional Text](../master/screenshots/frontend.png)
+![Optional Text](../master/screenshots/backend.png)
